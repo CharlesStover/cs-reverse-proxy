@@ -1,10 +1,13 @@
-# reverse-proxy
+# Reverse Proxy
+
 A reverse proxy for the suite of applications by Charles Stover.
 
 ## Build
-Run `yarn build`.
+
+Build the Docker image by running `yarn build`.
 
 ## Use
+
 Inside the Docker container, run `./cert domain.com` to generate a certificate for that domain.
 
 ## Tech Stack
